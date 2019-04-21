@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.javaworld.sample.HelloWorld.release</groupId>
+	<artifactId>helloworld</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<tycho-version>1.4.0</tycho-version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<target>
+						<artifact>
+							<groupId>com.javaworld.sample.HelloWorld.release</groupId>
+							<artifactId>my_target</artifactId>
+							<version>1.0.0</version>
+						</artifact>
+					</target>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<modules>
+		<module>../com.javaworld.sample.HelloWorld.tests</module>
+		<module>../com.javaworld.sample.HelloWorld</module>
+		<module>../my_target</module>
+	</modules>
+
+</project>

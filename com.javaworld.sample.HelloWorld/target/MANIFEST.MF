@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.javaworld.sample.HelloWorld
+Bundle-SymbolicName: com.javaworld.sample.HelloWorld
+Bundle-Name: HelloWorld
+Bundle-Version: 1.0.0
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: JAVAWORLD
+

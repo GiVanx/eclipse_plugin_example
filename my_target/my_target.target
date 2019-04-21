@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde version="3.8"?><target name="my_target">
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.apache.geronimo.specs.osgi.locator" version="1.1.0.v201205170953"/>
+			<unit id="org.apache.geronimo.specs.osgi.locator.source" version="1.1.0.v201205170953"/>
+			<unit id="org.apache.geronimo.specs.osgi.registry" version="1.1.0.v201205170710"/>
+			<unit id="org.apache.geronimo.specs.osgi.registry.source" version="1.1.0.v201205170710"/>
+			<unit id="org.eclipse.osgi" version="3.13.300.v20190218-1622"/>
+			<unit id="org.eclipse.osgi.services" version="3.8.0.v20190206-2147"/>
+			<unit id="org.eclipse.osgi.util" version="3.5.200.v20190115-2323"/>
+			<unit id="org.glassfish.hk2.osgi-resource-locator" version="2.5.0.v20161103-1916"/>
+			<unit id="org.glassfish.hk2.osgi-resource-locator.source" version="2.5.0.v20161103-1916"/>
+			<unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
+			<unit id="org.hamcrest.core" version="1.3.0.v20180420-1519"/>
+			<unit id="org.hamcrest.core.source" version="1.3.0.v20180420-1519"/>
+			<unit id="org.hamcrest.generator" version="1.3.0.v201305210900"/>
+			<unit id="org.hamcrest.generator.source" version="1.3.0.v201305210900"/>
+			<unit id="org.hamcrest.integration" version="1.3.0.v201305210900"/>
+			<unit id="org.hamcrest.integration.source" version="1.3.0.v201305210900"/>
+			<unit id="org.hamcrest.library" version="1.3.0.v20180524-2246"/>
+			<unit id="org.hamcrest.library.source" version="1.3.0.v20180524-2246"/>
+			<unit id="org.hamcrest.text" version="1.1.0.v20090501071000"/>
+			<unit id="org.hamcrest.text.source" version="1.1.0.v20090501071000"/>
+			<unit id="org.junit" version="4.12.0.v201504281640"/>
+			<unit id="org.junit.jupiter.api" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.api.source" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.engine" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.engine.source" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.migrationsupport" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.migrationsupport.source" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.params" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.jupiter.params.source" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.commons" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.commons.source" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.engine" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.engine.source" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.launcher" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.launcher.source" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.runner" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.runner.source" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.suite.api" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.platform.suite.api.source" version="1.4.0.v20190212-2109"/>
+			<unit id="org.junit.source" version="4.12.0.v201504281640"/>
+			<unit id="org.junit.vintage.engine" version="5.4.0.v20190212-2109"/>
+			<unit id="org.junit.vintage.engine.source" version="5.4.0.v20190212-2109"/>
+			<unit id="org.mockito" version="2.23.0.v20181106-1534"/>
+			<unit id="org.mockito.source" version="2.23.0.v20181106-1534"/>
+			<unit id="osgi.enterprise" version="4.2.0.v201108120515"/>
+			<unit id="osgi.enterprise.source" version="4.2.0.v201108120515"/>
+			<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20190226160451/repository"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<unit id="org.eclipse.equinox.sdk.feature.group" version="3.17.0.v20190305-2225"/>
+			<repository location="http://download.eclipse.org/eclipse/updates/4.11/"/>
+		</location>
+	</locations>
+</target>

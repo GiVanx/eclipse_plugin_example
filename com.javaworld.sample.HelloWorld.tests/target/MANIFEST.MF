@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.javaworld.sample.HelloWorld.tests
+Bundle-SymbolicName: com.javaworld.sample.HelloWorld.tests
+Bundle-Name: Tests
+Bundle-Version: 1.0.0
+Require-Bundle: org.junit;bundle-version="4.12.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: JAVAWORLD
+Fragment-Host: com.javaworld.sample.HelloWorld;bundle-version="1.0.0"
+
